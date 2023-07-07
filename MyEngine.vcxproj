@@ -157,7 +157,7 @@
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="App.h" />
-    <ClInclude Include="ChiliException.h" />
+    <ClInclude Include="MyException.h" />
     <ClInclude Include="ChiliTimer.h" />
     <ClInclude Include="ChiliWin.h" />
     <ClInclude Include="dxerr.h" />
@@ -171,7 +171,7 @@
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="App.cpp" />
-    <ClCompile Include="ChiliException.cpp" />
+    <ClCompile Include="MyException.cpp" />
     <ClCompile Include="ChiliTimer.cpp" />
     <ClCompile Include="dxerr.cpp" />
     <ClCompile Include="DxgiInfoManager.cpp" />

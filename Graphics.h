@@ -1,6 +1,6 @@
 #pragma once
 #include "ChiliWin.h"
-#include "ChiliException.h"
+#include "MyException.h"
 #include <d3d11.h>
 #include <wrl.h>
 #include <vector>
@@ -9,9 +9,9 @@
 class Graphics
 {
 public:
-	class Exception : public ChiliException
+	class Exception : public MyException
 	{
-		using ChiliException::ChiliException;
+		using MyException::MyException;
 	};
 	class HrException : public Exception
 	{
